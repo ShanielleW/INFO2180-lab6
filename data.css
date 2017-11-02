@@ -1,0 +1,27 @@
+
+body{
+    font-family: cursive, georgia, serif;     
+}
+
+#layout{
+    width: 60%
+}
+
+#title{
+    padding: 10px;
+    text-align: center;
+}
+
+#dic_container{
+    background-color: #f442e8;
+    border: 5px solid black;
+}
+
+#search{
+    font-family: fantasy, georgia, serif;
+}
+
+#result{
+    font-family: fantasy, georgia, serif;
+    font-weight: bold;
+}
