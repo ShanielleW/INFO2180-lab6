@@ -1,4 +1,5 @@
 // JavaScript File
+/*global $*/
 window.onload = main;
 
 function query(word){
@@ -9,7 +10,7 @@ function query(word){
         if(request.readyState === XMLHttpRequest.DONE ){
             if(request.status === 200){
                 let response = request.responseText;
-                alert(response);
+                document.getElementById("result").innerHTML = response;
             }else{
                 alert("Error Detected");
             }
@@ -24,6 +25,6 @@ function main(){
     let input = $("#search")[0];
     input.onclick = function(event){
         event.preventDefault();
-        query("definition");
+        query(document.getElementsByName("word")[0].value.toLowerCase());
     };
 }

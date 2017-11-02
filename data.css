@@ -10,11 +10,16 @@ body{
 #title{
     padding: 10px;
     text-align: center;
+    color: white;
 }
 
 #dic_container{
-    background-color: #f442e8;
+    background-color: #013d9e;
     border: 5px solid black;
+}
+
+#dictionSearch{
+    font-weight: 300;
 }
 
 #search{
