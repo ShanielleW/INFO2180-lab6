@@ -5,7 +5,7 @@ body{
 
 #layout{
     width: 60%;
-    background-color: #c11730;
+    background-color: #ffe74c;
 }
 
 #title{
@@ -15,7 +15,7 @@ body{
 }
 
 #dic_container{
-    background-color: #9e019b;
+    background-color: #35A7FF;
     border: 5px solid black;
 }
 
@@ -31,4 +31,8 @@ body{
     font-family: fantasy, georgia, serif;
     font-weight: bold;
     text-align: center;
+}
+
+#dictionary{
+    background-color: #38618C;
 }
