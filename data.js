@@ -4,7 +4,7 @@ window.onload = main;
 
 function query(word){
     let request = new XMLHttpRequest();
-    let url = "/request.php?word="+word;
+    let url = "/request.php?q="+word;
     
     request.onreadystatechange = function(){
         if(request.readyState === XMLHttpRequest.DONE ){

@@ -2,22 +2,23 @@
 <html>
     <head>
         <title> Web Dictionary </title>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="data.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <link rel="stylesheet" href="data.css" type="text/css" />
     </head>
     <body>
         <div id = "layout">
             <div id = "title">Dictionary</div>
             <div id = "dic_container">
-                <h2>Web Search</h2>
+                <h3>Web Search</h3>
+                <hr>
                 <form id = "dictionSearch">
                     <input type="text" name="word" placeholder="Eg. ajax"/>
                     <input type="submit" value="Search" id="search"/>
                 </form>
                 <hr>
                 <div id="definition"></div>
-                <span>Definition</span>
+                <span>Results</span>
                 <div id="result">
                     
                 </div>

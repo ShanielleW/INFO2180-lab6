@@ -4,7 +4,8 @@ body{
 }
 
 #layout{
-    width: 60%
+    width: 60%;
+    background-color: #c11730;
 }
 
 #title{
@@ -14,7 +15,7 @@ body{
 }
 
 #dic_container{
-    background-color: #013d9e;
+    background-color: #9e019b;
     border: 5px solid black;
 }
 
@@ -29,4 +30,5 @@ body{
 #result{
     font-family: fantasy, georgia, serif;
     font-weight: bold;
+    text-align: center;
 }
